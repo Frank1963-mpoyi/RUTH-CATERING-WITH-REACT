@@ -28,7 +28,7 @@ function Car() {
                 
                 <Typed 
                     className="typed-text"
-                    strings={["for wedding", "for oyr anniversary", "For your matric ball", "Any event"]}
+                    strings={["FOR YOUR WEDDING", "FOR YOUR ANNIVERSARY", "FOR YOUR CONFERENCES", "ANY EVENT"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop
@@ -43,7 +43,7 @@ function Car() {
                 
                 <Typed 
                     className="typed-text"
-                    strings={["for wedding", "for oyr anniversary", "For your matric ball", "Any event"]}
+                    strings={["FOR YOUR WEDDING", "FOR YOUR ANNIVERSARY", "FOR YOUR CONFERENCES", "ANY EVENT"]}
                     typeSpeed={40}
                     backSpeed={60}
                     loop

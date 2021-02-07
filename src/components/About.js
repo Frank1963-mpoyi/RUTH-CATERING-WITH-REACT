@@ -5,10 +5,10 @@ function About() {
     return (
         
     <div className="container mt-5">
-    <h1 className="text-center">OUR STORY</h1>
-    <div className="row">
+    <h3 className="text-center">READ MY HISTORY</h3>
+    <div className="row mt-5">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  ">
-            <h3> Read My History</h3>
+            
             <p>
                 Chef Ruth grew up in Republic Democratic of Congo and first realised
                 her passion for cooking while helping her mother and cousin prepre
@@ -20,7 +20,7 @@ function About() {
                 and The President Hotel.
             </p>
         
-            <h3> About us</h3>
+            
             <p>
                 We specializes with events cater in cape town. whether its a birthday
                 party, family gatherings, a private celebration , elaborate wedding or

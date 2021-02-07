@@ -5,7 +5,7 @@ function Footer() {
         <footer className="footer">
         <div className="section-center">
             <p className="footer-text">
-                &copy;<span>Food For Health</span>
+                &copy;<span>Mpoyi Tshibuyi</span>
             </p>
         </div>
     </footer>
