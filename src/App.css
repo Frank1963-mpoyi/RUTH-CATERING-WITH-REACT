@@ -253,6 +253,24 @@
     font-size: 1.2rem;
     color: #fff;
 }
+
+  .text-center {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .card-text {
+    font-size: 22px;
+  }
+
+  .col-md-4 {
+    margin-top: 10px;
+  }
+
 }
  
 

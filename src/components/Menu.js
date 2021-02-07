@@ -5,7 +5,7 @@ function Menu() {
 
     <section id="about" className="">
         <div>
-            <h2 className="title-text "> OUR MENU</h2>
+            <h2 className="title-text text-center "> OUR MENU</h2>
         </div>
         <div className="about-center">
             

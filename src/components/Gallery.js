@@ -12,7 +12,7 @@ function Gallery() {
     return (
         <section id="gallery">
         <div>
-            <h2 class="title-text">Main Cuisines</h2>
+            <h2 class="title-text text-center">MAIN CUISINES</h2>
         </div>
 
         <div id="gallery-centre">
