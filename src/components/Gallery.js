@@ -1,11 +1,11 @@
 import React from 'react'
-import mylogo from "../images/food3.jpg";
-import logo from "../images/drink (1).jpg";
+import mylogo from "../images/cover.jpg";
+import logo from "../images/drink.jpg";
 import drink1 from "../images/drink (2).jpg";
 import food2 from "../images/food2.jpg";
 import drink2 from "../images/drink (4).jpg";
-import drink3 from "../images/food5.jpg";
-import drink4 from "../images/food4.jpg";
+import drink3 from "../images/drink.jpg";
+import drink4 from "../images/food2.jpg";
 import drink5 from "../images/food2.jpg";
 
 function Gallery() {

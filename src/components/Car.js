@@ -1,4 +1,5 @@
 import React from 'react'
+import Typed from "react-typed";
 
 function Car() {
     return (
@@ -11,24 +12,44 @@ function Car() {
         <div className="carousel-inner">
             <div className="carousel-item active  ">
                 <div className="info">
-                    
-                    <h1>Food for Health</h1>
-                    
-                    <a href="#" className="hero-buttton pulsate">Book a table</a>
+                <Typed 
+                    className="typed-text"
+                    strings={["FOR YOUR WEDDING", "FOR YOUR ANNIVERSARY", "FOR YOUR CONFERENCES", "ANY EVENT"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop
+                />
+
+                <a href="#" className="btn-main-offer">book now</a>
                 </div>
             </div>
             <div className="carousel-item ">
                 <div className="info">
-                    <h1>Charcoal Steamed Bun </h1>
-                    <a href="#" className="hero-buttton pulsate">Book a table</a>
-                    
+                
+                <Typed 
+                    className="typed-text"
+                    strings={["for wedding", "for oyr anniversary", "For your matric ball", "Any event"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop
+                />
+
+                <a href="#" className="btn-main-offer">book now</a>                    
                 </div>
                 
             </div>
             <div className="carousel-item">
                 <div className="info">
-                    <h1>Food for Health </h1>
-                    <a href="#" className="hero-buttton pulsate">Book a table</a>
+                
+                <Typed 
+                    className="typed-text"
+                    strings={["for wedding", "for oyr anniversary", "For your matric ball", "Any event"]}
+                    typeSpeed={40}
+                    backSpeed={60}
+                    loop
+                />
+
+                <a href="#" className="btn-main-offer">book now</a>
                     
                 </div>
                 
