@@ -16,7 +16,7 @@ function About() {
 
                 her eduction started in her mother's kitchen, expended into kitchen
                 and culinary schools in the South Africa and still continues every day
-                in Restaurant and Hotels , Barista Boys, CTICC, Table Bay Hotel,
+                in Restaurant and Hotels , Barista Boys, CTICC, Table Bay Hotel, Raddison Blue,
                 and The President Hotel.
             </p>
         

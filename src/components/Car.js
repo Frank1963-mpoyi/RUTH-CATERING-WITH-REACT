@@ -9,7 +9,7 @@ function Car() {
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div className="carousel-inner">
+        <div className="carousel-inner data-interval='10000'">
             <div className="carousel-item active  ">
                 <div className="info">
                 <Typed 
