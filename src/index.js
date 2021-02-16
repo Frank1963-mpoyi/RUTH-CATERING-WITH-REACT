@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./components/styles/global.css"
-// import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
 // import Navbar from './components/Navbar/Navbar'
 import reportWebVitals from './reportWebVitals';
