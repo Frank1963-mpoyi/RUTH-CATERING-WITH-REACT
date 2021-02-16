@@ -1,15 +1,17 @@
 import React from 'react'
-//import mylogo from "./images/mpoyi.jpg";
+import {Link} from 'react-router-dom'
+import './components/Navbar/Navbar.css'
+
 
 
 
 function Navbar() {
     return (
-        
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top ">
+    
+    <nav className="navbar navbar-expand-lg  navbar-light fixed-top ">
 
     <div className="container">
-        <a className="navbar-brand " href="#">ruth catering</a>
+        <Link to='/'  className="navbar-brand text-white" >ruth catering</Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             
@@ -19,24 +21,31 @@ function Navbar() {
 
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item ">
-                    <a className="nav-link" href="#">Home </a>
+                    
+                    <Link to='/'  className="nav-link" >Home </Link>
+                </li>
+
+                <li className="nav-item">
+                    <Link to='/about-us'  className="nav-link"  >About</Link>                  
+                </li>
+        
+                <li className="nav-item">
+                    <Link to='/services'  className="nav-link" >service</Link>
                 </li>
                 <li className="nav-item">
-                    <a className="nav-link" href="#">About</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="#">service</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link " href="#">Contact-us</a>
+                    <Link to='/contact-us'  className="nav-link ">Contact-us</Link>
                 </li>
             </ul>
         </div>
 
     </div>
+    
+
 </nav>
+
+
 
     )
 }
 
-export default Navbar
+export default Navbar;

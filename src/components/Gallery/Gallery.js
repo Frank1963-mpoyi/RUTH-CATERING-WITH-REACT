@@ -1,12 +1,14 @@
 import React from 'react'
-import mylogo from "../images/cover.jpg";
-import logo from "../images/drink.jpg";
-import drink1 from "../images/drink (2).jpg";
-import food2 from "../images/food2.jpg";
-import drink2 from "../images/drink (4).jpg";
-import drink3 from "../images/drink.jpg";
-import drink4 from "../images/food2.jpg";
-import drink5 from "../images/food2.jpg";
+import mylogo from "./images/cover2.jpg";
+import logo from "./images/drink (2).jpg";
+import food2 from "./images/food2.jpg";
+import drink2 from "./images/drink (4).jpg";
+import drink3 from "./images/food11.jpg";
+import drink4 from "./images/food2.jpg";
+import drink5 from "./images/food2.jpg";
+import "./Gallery.css"
+
+
 
 function Gallery() {
     return (
@@ -30,7 +32,7 @@ function Gallery() {
 
             <article class="gallery-item">
                 <a href="">
-                    <img src={drink1} alt="" />
+                    <img src={drink2} alt="" />
                 </a>
             </article>
 

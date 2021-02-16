@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,400;1,600;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+.about-us,
+.contact,
+.home,
+.service {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+
+.navbar-nav a {
+    color: #F6F4F2;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    }
+
+    .navbar-light .navbar-brand {
+    
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    letter-spacing: 2px;
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 2rem;
+    color: #F6F4F2;
+    }
+
+.navbar-light .navbar-nav .nav-link{
+    color: #F6F4F2;
+    }
+
+
+.navbar-nav {
+    text-align: center; /* center the hamburger in device mode*/
+    
+    }
+
+
+.navbar-link {
+    padding: .2rem 1rem;
+    }
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #000  !important;
+
+    background: rgba(255, 255, 255, 0.5);
+    }
+
+.navbar.scrolled {
+    background: #425664 !important;     /* #009688 !important;*/
+    
+
+    }
+
+.fa-bars{
+    color: #fff;
+    font-size: 30 !important;
+    }
+
+.navbar-toggler{
+    outline: none !important;
+    }
+
+
+
+@media only screen and (max-width: 767px){
+    .navbar-nav.ml-auto{
+        background: rgba(0,0,0,0.5);
+    }
+
+    
+.navbar-light .navbar-brand {
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family: 'Kaushan Script', cursive; 
+    font-size: 1rem;
+    color: #F6F4F2;
+    }
+
+    }
+
+
+@media only screen and (max-width: 567px){
+    .navbar-nav.ml-auto{
+        background: rgba(0,0,0,0.5);
+    }
+
+    
+.navbar-nav a {
+    color: #F6F4F2;
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: uppercase;
+
+    }
+
+    }
+
+
+.navbar-fixed-top.scrolled {
+        background-color: #fff !important;
+        transition: background-color 200ms linear;
+        }

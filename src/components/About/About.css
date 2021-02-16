@@ -1,0 +1,33 @@
+
+
+.container h3 {
+    font-size: 40px;
+}
+
+
+.col-xs-12 p {
+    position: relative;
+    top: 100px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container .text-center {
+    margin-top: 80px;
+    color:#C6AD8F;
+}
+@media only screen and (max-width: 567px){
+    
+    .col-xs-12 p {
+        position: relative;
+        top: 0px;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    
+    .col-xs-12  {
+       
+        margin-bottom: 18px;
+    }
+    }

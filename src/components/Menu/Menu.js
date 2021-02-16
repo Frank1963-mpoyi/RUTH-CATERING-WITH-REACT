@@ -1,9 +1,12 @@
 import React from 'react'
+import "./Menu.css";
+
+
 
 function Menu() {
     return (
 
-    <section id="about" className="">
+    <section id="about" className="mt">
         <div>
             <h2 className="title-text text-center "> OUR MENU</h2>
         </div>

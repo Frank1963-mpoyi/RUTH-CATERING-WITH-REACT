@@ -1,28 +1,35 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Car from './components/Car';
-import About from './components/About';
-import Card from './components/Card';
-import Menu from './components/Menu';
-import SocialIcon from './components/SocialIcon';
-import Gallery from './components/Gallery';
-import Footer from './components/Footer'
+import  Navbar      from    './Navbar';
+
+
+
+
+// import Construction from './components/Construction/Construction';
+
+
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
+import Services from './pages/Services';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
 
 
 
 function App() {
   return (
-    <body>
-      <Navbar />
-      <Car />
-      <About />
-      <Card />
-      <Menu />
-      <SocialIcon />
-      <Gallery/>
-      <Footer />    
+    <body> 
+  
+      <Router>
+        <Navbar/> 
+        <Switch>
+            <Route exact  path='/' component={Home}/> 
+            <Route path='/about-us' exact component={AboutUs}/>
+            <Route path='/contact-us' exact component={ContactUs}/>
+            <Route path='/services' exact component={Services}/> 
+        </Switch>
+      </Router>
     </body>
-  );
+  )
 }
 
-export default App;
+export default App

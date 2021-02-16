@@ -1,12 +1,14 @@
 import React from 'react'
-import mylogo from "../images/foodcover.jpg";
+import mylogo from "./images/ruth.jpg";
+import "./About.css"
+
 
 function About() {
     return (
         
-    <div className="container mt-5">
+    <div className="container ">
     <h3 className="text-center">READ MY HISTORY</h3>
-    <div className="row mt-5">
+    <div className="row mt-3">
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  ">
             
             <p>
@@ -16,7 +18,7 @@ function About() {
 
                 her eduction started in her mother's kitchen, expended into kitchen
                 and culinary schools in the South Africa and still continues every day
-                in Restaurant and Hotels , Barista Boys, CTICC, Table Bay Hotel,
+                in Restaurant and Hotels , Barista Boys, CTICC, Table Bay Hotel, Raddison Blue,
                 and The President Hotel.
             </p>
         
@@ -34,7 +36,7 @@ function About() {
         </div>
         
         <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6  ">
-                <img src={mylogo} style={{width: "100%", height: "auto"}} alt="" />
+                <img src={mylogo} style={{width: "100%", height: "110%"}} alt="" />
         </div>
         
         

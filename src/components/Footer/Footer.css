@@ -1,0 +1,14 @@
+
+  /* =======footer==== */
+.footer{
+    background: #425664;
+    text-align: center;
+    }
+
+
+.footer-text{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+    }
