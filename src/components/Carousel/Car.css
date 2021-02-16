@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,400;1,600;1,800&display=swap');
+
+
+
+
+/* ====slider==== */
+#carouselExampleIndicators{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    }
+
+#carouselExampleIndicators .carousel-inner{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    }
+
+
+    #carouselExampleIndicators .carousel-inner:before{
+    position: absolute;
+    content: '';
+    background: rgba(0,0,0,0.45);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+
+    }
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url("./images/cover.jpg"); 
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('./images/drink.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('./images/ruh.jpg'); 
+    background-size: 100% 100%;
+    background-position: center;
+    }
+
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    }
+
+#carouselExampleIndicators .carousel-inner .carousel-item h1 {
+
+    color: #ccc;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 500;
+
+    }
+
+
+#carouselExampleIndicators .carousel-inner .carousel-item p {
+
+    color: #ccc;
+    height: auto;
+    width: 100%;
+    text-align: center; 
+    z-index: 1;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 750;
+    }
+
+.info  {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bolder; */
+    /* font-family: 'Roboto condesed', sans-serif; */
+    z-index: 1;
+    }
+
+
+  /*********** HEADER MAIN OFFER BUTTON ********************/
+.btn-main-offer {
+    border: 1px solid #425664;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: #fff;
+    margin: 2rem;
+    
+    }
+
+.btn-main-offer  {
+    font-size: 1.25rem;
+
+}
+
+
+.btn-main-offer:hover {
+    text-decoration: none;
+    background: #425664 ;
+    color: #F6F4F2;
+    transition: .2 ease-in-out;
+
+    }
+
+
+.typed-text {
+    /* font-family: 'Kaushan Script', cursive;  */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 567px) {
+
+    .typed-text {
+        /* font-family: 'Kaushan Script', cursive;  */
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bolder;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+
+    
+    .btn-main-offer  {
+        font-size: 0.6rem;
+
+    }
+
+
+    .text-center {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .card-title {
+        font-size: 30px;
+    }
+
+    .card-text {
+        font-size: 22px;
+    }
+
+    .col-md-4 {
+        margin-top: 10px;
+    }
+
+    }
+
+
+    .tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    }
+
+@media(max-width: 768px ){
+    .particles-canvas {
+        display: none;
+    }
+    }
