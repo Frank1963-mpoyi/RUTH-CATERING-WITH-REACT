@@ -7,6 +7,7 @@ import  Navbar      from    './Navbar';
 
 
 import Home from './pages/Home';
+import Booknow from './pages/Booknow';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Services from './pages/Services';
@@ -26,6 +27,7 @@ function App() {
             <Route path='/about-us' exact component={AboutUs}/>
             <Route path='/contact-us' exact component={ContactUs}/>
             <Route path='/services' exact component={Services}/> 
+            <Route path='/booknow' exact component={Booknow}/> 
         </Switch>
       </Router>
     </body>

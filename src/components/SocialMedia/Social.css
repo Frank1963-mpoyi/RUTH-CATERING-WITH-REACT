@@ -9,8 +9,8 @@
 
 #social-icons a {
     display: inline-block;
-    padding: 5px 10px;
-    margin: 0 5px;
+    padding: 0px 10px; 
+    /* margin: 0 5px; */
     font-size: 40px;
     border-radius: 5px;
     transition: transform 2s ease, color 2s ease;
@@ -40,3 +40,6 @@
 .youtube{
     color: red;
     }
+.whatsapp{
+    color: lightgreen;
+}

@@ -25,7 +25,7 @@ function Car() {
                     loop
                 />
 
-                <Link to='/about-us' href="#" className="btn-main-offer">book now</Link>
+                <Link to='/booknow' href="#" className="btn-main-offer">book now</Link>
                 </div>
             </div>
             <div className="carousel-item ">

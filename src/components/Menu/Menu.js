@@ -8,9 +8,9 @@ function Menu() {
 
     <section id="about" className="menu">
         <div>
-            <h2 style={{fontSize:"35px"}} className="title-text text-center "> OUR MENU</h2>
+            <h2 style={{fontSize:"35px" , marginTop:"50px"}} className="title-text2 text-center "> OUR MENU</h2>
         </div>
-        <div className="about-center">
+        <div className="about-center container-fluid">
             
             <article className="about">
                 <div className="about-icon">
