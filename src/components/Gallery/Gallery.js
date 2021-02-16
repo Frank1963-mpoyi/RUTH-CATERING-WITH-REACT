@@ -14,7 +14,7 @@ function Gallery() {
     return (
         <section id="gallery">
         <div>
-            <h2 style={{fontSize:"35px"}} class="title-text text-center">MAIN CUISINES</h2>
+            <h2 style={{fontSize:"35px"}} class="title-text2 text-center">MAIN CUISINES</h2>
         </div>
 
         <div id="gallery-centre">
@@ -48,18 +48,38 @@ function Gallery() {
                 </a>
             </article>
 
-            <article class="gallery-item d-none d-md-block ">
+            <article class="gallery-item  ">
                 <a href="">
                     <img src={drink3} alt="" />
                 </a>
             </article>
 
-            <article class="gallery-item d-none d-md-block ">
+            <article class="gallery-item  ">
                 <a href="">
                     <img src={drink4} alt="" />
                 </a>
             </article>
 
+            <article class="gallery-item  d-none d-md-block ">
+                <a href="">
+                    <img src={drink5} alt="" />
+                </a>
+            </article>
+            <article class="gallery-item  d-none d-md-block ">
+                <a href="">
+                    <img src={drink5} alt="" />
+                </a>
+            </article>
+            <article class="gallery-item  d-none d-md-block ">
+                <a href="">
+                    <img src={drink5} alt="" />
+                </a>
+            </article>
+            <article class="gallery-item  d-none d-md-block ">
+                <a href="">
+                    <img src={drink5} alt="" />
+                </a>
+            </article>
             <article class="gallery-item  d-none d-md-block ">
                 <a href="">
                     <img src={drink5} alt="" />

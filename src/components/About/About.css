@@ -56,12 +56,14 @@
     .read-title {
         /* margin: 60px 0 30px 0; */
         text-align: center;
+        font-weight: 900;
         color: #C6AD8F;
         font-size: 35px;
         position: absolute;
-        top: -50px;
+        top: -52px;
         left: 0;
         right: 0;
+    
     }
 
         
