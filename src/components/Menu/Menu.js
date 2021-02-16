@@ -6,9 +6,9 @@ import "./Menu.css";
 function Menu() {
     return (
 
-    <section id="about" className="mt">
+    <section id="about" className="menu">
         <div>
-            <h2 className="title-text text-center "> OUR MENU</h2>
+            <h2 style={{fontSize:"35px"}} className="title-text text-center "> OUR MENU</h2>
         </div>
         <div className="about-center">
             

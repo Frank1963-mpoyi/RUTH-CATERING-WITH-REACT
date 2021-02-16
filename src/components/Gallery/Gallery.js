@@ -14,7 +14,7 @@ function Gallery() {
     return (
         <section id="gallery">
         <div>
-            <h2 class="title-text text-center">MAIN CUISINES</h2>
+            <h2 style={{fontSize:"35px"}} class="title-text text-center">MAIN CUISINES</h2>
         </div>
 
         <div id="gallery-centre">
