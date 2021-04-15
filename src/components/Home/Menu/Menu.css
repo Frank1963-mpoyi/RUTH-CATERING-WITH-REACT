@@ -8,9 +8,30 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
 .wrapper{
     width: 1200px;
     margin: 100px auto;
+    position: relative;
+}
+
+
+
+.menu{
+    position: relative;
+    left: 45px;
+   
+}
+
+@media (max-width: 768px){
+        
+    .menu{
+        position: relative;
+        left: 0px;
+    
+    }
 }
 
 .title{
@@ -31,6 +52,10 @@ body{
         margin-bottom: 60px;
     }
 
+    .menu {
+
+    }
+
 
 }
 
@@ -41,6 +66,8 @@ body{
     position: relative;
     display: inline-block;
     padding-bottom: 20px;
+    color: #df8a1b;
+    font-weight: bolder;
 }
 
 .title h4 span{
@@ -55,7 +82,8 @@ body{
     content: '';
     width: 100px;
     height: 2px;
-    background-color: #ff7720;
+    background-color: #000;
+    font-weight: bolder;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -70,11 +98,15 @@ body{
 
 @media (max-width: 768px){
         
-    .menu{
+    .wrapper{
         display: block;
         flex-wrap: wrap;
         justify-content: space-between;
+        position: relative;
+        top: 300px;
     }
+
+    
 }
 
 .single-menu{
@@ -135,6 +167,7 @@ body{
 
 .single-menu h4 span{
     float: right;
-    color: #ff7720;
+    color: #df8a1b; 
+    /* color: #df8a1b; */
     font-style: italic;
 }

@@ -1,12 +1,32 @@
 import          React       from    'react'
 import                              "./ContactUs.css"
+import ruth from "./images/ruth (1).jpg"
+// import  classes from './ContactUs.css'
+import styled from 'styled-components'
+
+
+const StyledBody = styled.body`
+    
+        padding: 0px;
+        margin: 0px;
+        font-family: sans-serif;
+
+
+        background-image: url(${ruth});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+        height: 100vh; 
 
 
 
+
+`;
 
 function ContactUsForm() {
     return (
-        <div>
+        <StyledBody >
                     
             <section id="contact-section" >
                 <div className="container-fluid">
@@ -35,7 +55,7 @@ function ContactUsForm() {
                     </div>
                 </div>
             </section>
-        </div>
+        </StyledBody>
     )
 }
 

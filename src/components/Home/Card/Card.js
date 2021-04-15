@@ -5,60 +5,74 @@ import sharon from "./images/sharon.jpg"
 import mbuyi from "./images/mbuyi.jpg"
 
 function Card() {
-    return (
-        
-    <div className="container  ">
-        
-        <h3 className="text-center pt-5"> OUR MASTER CHEFS</h3>
-        <div className="row padding card-img-space">
-            <div className="col-md-3">
-                <div className="card card-img-media">
-                        <img src={sharon} alt="" className="card-img-top img-responsive" />
-                    <div className="card-body">
-                        <h5 className="card-title text-cent">Chef Siki</h5>
-                        <p className="card-text text-cent ">HOT KITCHEN </p>
-                    </div>
+    return ( 
+
+            <div className="team">
+                <div className="container">
+                    <h1>OUR MASTER CHEFS</h1>
+                    <div className="row">
+                        <div className="col-md-3 profile text-center">
+                            <div className="img-box">
+                                <img src={ndaya} className="img-responsive" alt=""/>
+                                <ul>
+                                    <li><a href=""> <i className="fa fa-facebook"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-twitter"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-linkedin"></i></a> </li>
+
+                                </ul>
+                            </div>
+                            <h2>CHEF RUTH</h2>
+                            <h3>Founder/CEO</h3>
+                            {/* <p>Lorem ipsum dolor sit amet.</p> */}
+                        </div>
+
+                        <div className="col-md-3 profile text-center">
+                            <div className="img-box">
+                                <img src={sharon} className="img-responsive" alt=""/>
+                                <ul>
+                                    <li><a href=""> <i className="fa fa-facebook"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-twitter"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-linkedin"></i></a> </li>
+
+                                </ul>
+                            </div>
+                            <h2>CHEF SIKI</h2>
+                            <h3> Hot Kitchen </h3>
+                            {/* <p>Lorem ipsum dolor sit amet.</p> */}
+                        </div>
+
+                        <div className="col-md-3 profile text-center">
+                            <div className="img-box">
+                                <img src={mbuyi} className="img-responsive" alt=""/>
+                                <ul>
+                                    <li><a href=""> <i className="fa fa-facebook"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-twitter"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-linkedin"></i></a> </li>
+
+                                </ul>
+                            </div>
+                            <h2>CHEF FLORA</h2>
+                            <h3>Pastry</h3>
+                            {/* <p>Lorem ipsum dolor sit amet.</p> */}
+                        </div>
+
+                        <div className="col-md-3 profile text-center">
+                            <div className="img-box">
+                                <img src={ndaya} className="img-responsive" alt=""/>
+                                <ul>
+                                    <li><a href=""> <i className="fa fa-facebook"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-twitter"></i></a> </li>
+                                    <li><a href=""> <i className="fa fa-linkedin"></i></a> </li>
+
+                                </ul>
+                            </div>
+                                <h2>CHEF RUTH</h2>
+                                <h3>Founder/CEO</h3>
+                                {/* <p>Lorem ipsum dolor sit amet.</p> */}
+                        </div>
+                    </div>    
                 </div>
             </div>
-
-            <div className="col-md-3">
-                <div className="card card-img-media mt-3">
-                    <img src={ndaya} alt="" className="card-img-top img-responsive" />
-            
-                    <div className="card-body">
-                        <h5 className="card-title text-cent">Chef Ruth</h5>
-                        <p className="card-text text-cent">OWNER & MANAGER</p>
-
-                    </div>
-                </div>
-            </div>
-
-            <div className="col-md-3">
-                <div className="card card-img-media mt-3">
-                    <img src={mbuyi} alt="" className="card-img-top img-responsive" /> 
-                    <div className="card-body">
-                        <h5 className="card-title text-cent">Chef Flora</h5>
-                        <p className="card-text text-cent">PASTRY KITCHEN</p>
-                    </div>
-                </div>
-            </div>
-            
-            
-            <div className="col-md-3">
-                <div className="card card-img-media mt-3">
-                    <img src={ndaya} alt="" className="card-img-top img-responsive" /> 
-                    <div className="card-body">
-                        <h5 className="card-title text-cent">Chef Flora</h5>
-                        <p className="card-text text-cent">PASTRY KITCHEN</p>
-                    </div>
-                </div>
-            </div>
-  
-
-            
-            
-        </div>
-    </div>
 
     )
 }

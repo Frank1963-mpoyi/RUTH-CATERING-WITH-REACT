@@ -1,16 +1,22 @@
 import  React   from    'react'
 import  mylogo  from    "./images/ruth.jpg";
 import                  "./About.css"
+// import   classes   from  "./About.css"
+
+
+
+
+
 
 
 function About() {
     return (
         
     <div className="container main-container">
-        <div className="row main-read ">
+        <div className="row main-read">
             <div className="col col-lg-6 col-sm-12  main-read-my-history">
                 <div className="read-my-history">
-                    <h3 className="read-title">READ MY HISTORY</h3>
+                    <h3 className="read-title">read my history</h3>
         
                     <p>
                         Chef Ruth grew up in Democratic Republic of Congo and first realised
