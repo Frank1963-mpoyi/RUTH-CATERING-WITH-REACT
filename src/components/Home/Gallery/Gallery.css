@@ -1,8 +1,8 @@
 .gallery-item img{
-    width: 200px;
+    width: 225px;
     height: 200px;
-    margin-top: 30px;
-    border-radius: 20px;
+    margin-top: 8px;
+    border-radius: 5px;
     opacity: 1;
     transition: opacity 2s ease;
 
@@ -20,7 +20,7 @@
     flex-direction: row;
     flex-wrap: wrap; 
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     
 
 }
@@ -35,12 +35,12 @@
 
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:760px){
     .gallery-item img{
         width: 350px;
         height: 250px;
-        margin-top: 30px;
-        border-radius: 20px;
+        margin-top: 15px;
+        border-radius: 2px;
         opacity: 1;
         transition: opacity 2s ease;
     

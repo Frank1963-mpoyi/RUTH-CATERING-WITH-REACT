@@ -39,7 +39,7 @@ function Car() {
                     loop
                 />
 
-                <Link to='/booknow'  className="btn-main-offer">book now</Link>                    
+                <Link to='/booknow'  className="btn-main-offer">book our services</Link>                    
                 </div>
                 
             </div>

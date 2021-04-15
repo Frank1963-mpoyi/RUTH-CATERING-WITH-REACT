@@ -1,11 +1,11 @@
 import React from 'react'
-import mylogo from "./images/drink (4).jpg";
-import logo from "./images/drink (4).jpg";
-import food2 from "./images/drink (4).jpg";
-import drink2 from "./images/drink (4).jpg";
-import drink3 from "./images/drink (4).jpg";
-import drink4 from "./images/drink (4).jpg";
-import drink5 from "./images/drink (4).jpg";
+import food1 from "./images/food (1).jpeg";
+import food2 from "./images/food (2).jpeg";
+import food3 from "./images/food (3).jpeg";
+import food4 from "./images/food (4).jpeg";
+import food5 from "./images/food (5).jpeg";
+import food6 from "./images/food (6).jpeg";
+import food7 from "./images/food (7).jpeg";
 import "./Gallery.css"
 
 
@@ -20,19 +20,7 @@ function Gallery() {
         <div id="gallery-centre" className="galery-img-space">
             <article className="gallery-item d-none d-md-block  ">
                 <a href="">
-                    <img className="" src={mylogo} alt="" />
-                </a>
-            </article>
-
-            <article className="gallery-item">
-                <a href="">
-                    <img src={logo} alt="" />
-                </a>
-            </article>
-
-            <article className="gallery-item">
-                <a href="">
-                    <img src={drink2} alt="" />
+                    <img className="" src={food1} alt="" />
                 </a>
             </article>
 
@@ -44,45 +32,57 @@ function Gallery() {
 
             <article className="gallery-item">
                 <a href="">
-                    <img src={drink2} alt="" />
+                    <img src={food3} alt="" />
+                </a>
+            </article>
+
+            <article className="gallery-item">
+                <a href="">
+                    <img src={food4} alt="" />
+                </a>
+            </article>
+
+            <article className="gallery-item">
+                <a href="">
+                    <img src={food5} alt="" />
                 </a>
             </article>
 
             <article className="gallery-item  ">
                 <a href="">
-                    <img src={drink3} alt="" />
+                    <img src={food6} alt="" />
                 </a>
             </article>
 
             <article className="gallery-item  ">
                 <a href="">
-                    <img src={drink4} alt="" />
+                    <img src={food7} alt="" />
                 </a>
             </article>
 
             <article className="gallery-item  d-none d-md-block ">
                 <a href="">
-                    <img src={drink5} alt="" />
+                    <img src={food1} alt="" />
                 </a>
             </article>
             <article className="gallery-item  d-none d-md-block ">
                 <a href="">
-                    <img src={drink5} alt="" />
+                    <img src={food2} alt="" />
                 </a>
             </article>
             <article className="gallery-item  d-none d-md-block ">
                 <a href="">
-                    <img src={drink5} alt="" />
+                    <img src={food3} alt="" />
                 </a>
             </article>
             <article className="gallery-item  d-none d-md-block ">
                 <a href="">
-                    <img src={drink5} alt="" />
+                    <img src={food4} alt="" />
                 </a>
             </article>
             <article className="gallery-item  d-none d-md-block ">
                 <a href="">
-                    <img src={drink5} alt="" />
+                    <img src={food5} alt="" />
                 </a>
             </article>
         </div>

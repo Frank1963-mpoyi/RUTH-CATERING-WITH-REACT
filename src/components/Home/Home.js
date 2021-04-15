@@ -15,8 +15,8 @@ export default function Home () {
         <>
             <Car />
             <About />
-            <Card />
             <Menu />
+            <Card />
             <SocialIcon />
             <Gallery/>   
             <Footer /> 
