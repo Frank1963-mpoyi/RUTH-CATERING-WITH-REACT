@@ -2,7 +2,7 @@
 
 .navbar-nav a {
     color: #F6F4F2;
-    font-size: 1.2em;
+    font-size: 0.7em;
     font-weight: 400;
     text-transform: uppercase;
 
@@ -16,7 +16,7 @@
     letter-spacing: 2px;
     font-family: 'Kaushan Script', cursive;  
     /* font-family: 'Montserrat', sans-serif; */
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #F6F4F2;
     }
 
@@ -65,11 +65,11 @@
         
     .navbar-light .navbar-brand {
         text-transform: uppercase;
-        font-weight: bolder;
+        font-weight: 200;
         letter-spacing: 2px;
         font-family: 'Kaushan Script', cursive;  
         /* font-family: 'Montserrat', sans-serif; */
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: #F6F4F2;
         }
 

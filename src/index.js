@@ -1,22 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import "./components/styles/global.css"
-
-import App from './App';
-// import Navbar from './components/Navbar/Navbar'
-import reportWebVitals from './reportWebVitals';
+import      React       from    'react';
+import      ReactDOM    from    'react-dom';
+import      App         from    './App';
+// import      "./components/styles/global.css"
 
 
 
+ReactDOM.render(<App /> , document.getElementById('root'));
 
-ReactDOM.render(
-  <React.StrictMode>
-  
-    <App />
-    
-  </React.StrictMode>,
 
-  document.getElementById('root')
-);
-
-reportWebVitals();
