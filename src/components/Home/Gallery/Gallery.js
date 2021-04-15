@@ -6,6 +6,8 @@ import food4 from "./images/food (4).jpeg";
 import food5 from "./images/food (5).jpeg";
 import food6 from "./images/food (6).jpeg";
 import food7 from "./images/food (7).jpeg";
+// import food8 from "./images/food8.jpg";
+import food9 from "./images/food9.jpg";
 import "./Gallery.css"
 
 
@@ -77,7 +79,7 @@ function Gallery() {
             </article>
             <article className="gallery-item  d-none d-md-block ">
                 <a href="">
-                    <img src={food4} alt="" />
+                    <img src={food9} alt="" />
                 </a>
             </article>
             <article className="gallery-item  d-none d-md-block ">
