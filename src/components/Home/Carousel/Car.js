@@ -8,7 +8,7 @@ import      {Link}  from    'react-router-dom'
 
 function Car() {
     return (
-        <div id="carouselExampleIndicators" className="carousel slide" data-interval="10000" data-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide" data-interval="13000" data-ride="carousel">
         <ol className="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -20,12 +20,12 @@ function Car() {
                 <Typed 
                     className="typed-text"
                     strings={["FOR YOUR WEDDING", "FOR YOUR ANNIVERSARY", "FOR YOUR CONFERENCES", "ANY EVENT"]}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    typeSpeed={70}
+                    backSpeed={80}
                     loop
                 />
 
-                <Link to='/home-book-now'  className="btn-main-offer">book now</Link>
+                <Link to='/home-book-now'  className="btn-main-offer">book our services</Link>
                 </div>
             </div>
             <div className="carousel-item ">
@@ -34,8 +34,8 @@ function Car() {
                 <Typed 
                     className="typed-text"
                     strings={["FOR YOUR WEDDING", "FOR YOUR ANNIVERSARY", "FOR YOUR CONFERENCES", "ANY EVENT"]}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    typeSpeed={70}
+                    backSpeed={80}
                     loop
                 />
 
@@ -49,12 +49,12 @@ function Car() {
                 <Typed 
                     className="typed-text"
                     strings={["FOR YOUR WEDDING", "FOR YOUR ANNIVERSARY", "FOR YOUR CONFERENCES", "ANY EVENT"]}
-                    typeSpeed={40}
-                    backSpeed={60}
+                    typeSpeed={70}
+                    backSpeed={80}
                     loop
                 />
 
-                <Link to='/booknow'   className="btn-main-offer">book now</Link>
+                <Link to='/booknow'   className="btn-main-offer">book our services</Link>
                     
                 </div>
                 

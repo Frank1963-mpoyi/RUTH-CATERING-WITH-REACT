@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,400;1,600;1,800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,200;1,400;1,600;1,800&display=swap'); */
 
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500&display=swap');
 
 
 
@@ -129,7 +130,8 @@
     }
 
 .btn-main-offer  {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
+    font-weight: 400;
     border-radius: 40%;
 
 }
@@ -146,21 +148,24 @@
 
 
 .typed-text {
-    /* font-family: 'Kaushan Script', cursive;  */
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+  
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 5px;
+    font-weight: 600;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     color: #fff;
 }
 
 
-@media only screen and (max-width: 567px) {
+@media only screen and (max-width: 760px) {
 
     .typed-text {
-        /* font-family: 'Kaushan Script', cursive;  */
-        font-family: 'Montserrat', sans-serif;
-        font-weight: bolder;
+       
+        /* font-family: 'Montserrat', sans-serif; */
+        font-family: 'Dosis', sans-serif;
+        font-weight: 600;
         text-transform: uppercase;
         font-size: 1.2rem;
         color: #fff;
@@ -168,7 +173,7 @@
 
     
     .btn-main-offer  {
-        font-size: 1rem;
+        font-size: 0.8rem;
 
     }
 
