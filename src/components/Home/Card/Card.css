@@ -5,23 +5,43 @@
 
 h1 {
     text-align: center;
+    font-size: 40px;
     font-weight: bold;
+    text-transform: capitalize;
     letter-spacing: 2px;
-    color: #333;
-    padding-bottom: 10px;
+    color: #d67d09;
+    padding-bottom: 15px;
+    margin-top: -15px;
 }
 
 
-/* like below h1 */
+/* line  below h1 */
 h1:after {
     content:'';
-    background: #333;
+    background-color: #000;;
     display: block;
-    height: 10px;
     width: 150px;
+    height: 2px;
     margin: 10px auto;
 
 }
+
+
+@media(max-width: 768px){
+    
+    h1 {
+        
+        font-size: 36px;
+        padding-bottom: 5px;
+        margin-top: -125px;
+    }
+
+
+
+
+}
+
+
 
 .profile {
     margin-top: 25px;
@@ -40,7 +60,7 @@ h1:after {
 }
 
 .profile h3{
-    font-size: 15px;
+    font-size: 22px;
     font-weight: bold;
     margin-top: 15px;
 }
@@ -53,6 +73,7 @@ h1:after {
 
 
 
+/* this is for overlay */
 .img-box:after {
     content: '';
     opacity: 0;
@@ -64,6 +85,8 @@ h1:after {
     bottom: 0;
 }
 
+
+/* for social media */
 .img-box ul {
     margin: 0;
     padding: 20px 0;
@@ -76,6 +99,49 @@ h1:after {
     opacity: 0;
 }
 
+@media(max-width: 768px){
+
+    .img-box ul li {
+        width: 42px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius: 20%;
+        margin: 3px;
+        padding: 0px;
+        display: inline-block;
+    }
+
+    .img-box ul li .fa-facebook{
+        font-size: 20px;
+        position: absolute;
+        top: 30px;
+        left: 13px;
+    }
+
+    .img-box ul li .fa-twitter{
+        font-size: 20px;
+        position: absolute;
+        top: 30px;
+        right: 46px;
+    }
+    
+    .img-box ul li .fa-linkedin{
+        font-size: 20px;
+        position: absolute;
+        top: 30px;
+        right: 10px;
+    }
+
+    .img-box img{
+        width: 350px;
+        height: 350px;
+       
+    }
+    
+}
+
+
+/* facebook etc ... size */
 .img-box ul li {
     width: 32px;
     height: 30px;

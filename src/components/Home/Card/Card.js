@@ -9,7 +9,7 @@ function Card() {
 
             <div className="team">
                 <div className="container">
-                    <h1>OUR MASTER CHEFS</h1>
+                    <h1>Our Master Chefs</h1>
                     <div className="row">
                         <div className="col-md-3 profile text-center">
                             <div className="img-box">

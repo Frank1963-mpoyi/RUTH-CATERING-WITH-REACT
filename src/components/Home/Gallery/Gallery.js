@@ -16,13 +16,13 @@ function Gallery() {
     return (
         <section id="gallery"  >
         <div>
-            <h2 style={{fontSize:"35px"}} class="title-text2 text-center">MAIN CUISINES</h2>
+            <h2 style={{fontSize:"35px"}} class="title-text2 text-center">main cuisines</h2>
         </div>
 
-        <div id="gallery-centre" className="galery-img-space">
+        <div id="gallery-centre" className="galery-img-space justify-content-center">
             <article className="gallery-item d-none d-md-block  ">
                 <a href="">
-                    <img className="" src={food1} alt="" />
+                    <img className="img-fluid" src={food1} alt="" />
                 </a>
             </article>
 
