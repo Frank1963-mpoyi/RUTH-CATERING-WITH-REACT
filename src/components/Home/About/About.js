@@ -16,7 +16,7 @@ function About() {
         <div className="row main-read">
             <div className="col col-lg-6 col-sm-12  main-read-my-history">
                 <div className="read-my-history">
-                    <h3 className="read-title">read my history</h3>
+                    <h3 className="read-title">about Ruth Mpoyi</h3>
         
                     <p>
                         Chef Ruth grew up in Democratic Republic of Congo and first realised
