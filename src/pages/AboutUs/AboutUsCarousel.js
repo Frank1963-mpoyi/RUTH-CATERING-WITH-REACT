@@ -1,22 +1,23 @@
 import React from 'react';
-import "./AboutUs.css"
-import mylogo from "./images/ruh.jpg";
 
+import "./AboutUs.css"
 
 
 export default function AboutUs () {
     return (
+        
+            
+            <header>
+                <div className="hero">
+                    <p>Building About Us page </p>
+                    <h5 className="title"> COMING SOON </h5>
+                    <hr/>
+                    <p className="" id="launch">
 
-            <div className="hero-container ">
-                <img className="abous-us " src={mylogo} style={{width: "100%", height: "100vh", backgroundColor: "rgba(0,0,0,0)"}} alt="" />
-                {/* <div class="overlay"></div> */}
-                {/* <div className="await">
-                    <h3>THIS PAGE IS  UNDER CONSTRUCTION</h3>
-                    
-                </div>  */}
-                
-        
-            </div>
-        
+                    </p>
+                </div>
+            </header> 
+
+
     );
 }

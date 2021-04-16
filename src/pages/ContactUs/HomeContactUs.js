@@ -10,7 +10,7 @@ export default function Home () {
         <>
             {/* <ContactUsCarousel  /> */}
             <ContactUsForm />
-            <Footer/>
+            <Footer />
             
         </>
     );
