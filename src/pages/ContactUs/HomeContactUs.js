@@ -3,6 +3,7 @@ import React from 'react';
 // import  ContactUsCarousel        from    './ContactUsCarousel';
 import ContactUsForm             from './ContactUsForm';
 import Footer      from "./Footer"
+import GoogleMap from './GoogleMap';
 
 
 export default function Home () {
@@ -10,6 +11,7 @@ export default function Home () {
         <>
             {/* <ContactUsCarousel  /> */}
             <ContactUsForm />
+            <GoogleMap/>
             <Footer />
             
         </>

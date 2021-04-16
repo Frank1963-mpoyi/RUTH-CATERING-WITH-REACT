@@ -1,18 +1,6 @@
 import          React       from    'react'
 import                              "./ContactUs.css"
-import ruth from "./images/ruth (1).jpg"
-// import  classes from './ContactUs.css'
-import styled from 'styled-components'
 
-
-const StyledBody = styled.body`
-    
-        font-family: sans-serif;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    
-`;
 
 
 
@@ -30,9 +18,9 @@ function ContactUsForm() {
                         <div>
                             <i className="fa fa-map-marker"></i><span className="form-info"> Brackenfell Cape Town South Africa </span><br/>
                             <i className="fa fa-phone"></i><span className="form-info">Phone: + (27) 736485511 </span><br/>
-                            <i className="fa fa-envelope"></i><span className="form-info">ruthmpoyi63@gmail.com</span><br/>
+                            <i className="fa fa-envelope"></i><span className="form-info">ruthmpoyi63@gmail.com</span><br/><br/>
                         </div>
-
+            
                          {/* Second grid   */}
                         <div>
                             <form action="">
