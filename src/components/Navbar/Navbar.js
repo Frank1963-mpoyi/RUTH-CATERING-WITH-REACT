@@ -26,14 +26,14 @@ function Navbar() {
                 </li>
 
                 <li className="nav-item">
-                    <Link to='/home-about-us'  className="nav-link"  >About-us</Link>                  
+                    <Link to='/home-about-us'  className="nav-link"  >About</Link>                  
                 </li>
         
                 <li className="nav-item">
-                    <Link to='/home-service'  className="nav-link" >service</Link>
+                    <Link to='/home-service'  className="nav-link" >services</Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/home-contact-us'  className="nav-link ">Contact-us</Link>
+                    <Link to='/home-contact-us'  className="nav-link ">Contact</Link>
                 </li>
             </ul>
         </div>

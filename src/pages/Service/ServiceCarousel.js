@@ -6,7 +6,7 @@ export default function Services () {
         
         <header>
             <div className="hero">
-                <p>Building Service  page </p>
+                <p>Services  page page  Is Under Construction </p>
                 <h5 className="title"> COMING SOON </h5>
                 <hr/>
                 <p className="" id="launch">

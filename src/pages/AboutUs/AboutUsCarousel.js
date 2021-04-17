@@ -9,7 +9,7 @@ export default function AboutUs () {
             
             <header>
                 <div className="hero">
-                    <p>Building About Us page </p>
+                    <p> About  page  Is Under Construction </p>
                     <h5 className="title"> COMING SOON </h5>
                     <hr/>
                     <p className="" id="launch">
