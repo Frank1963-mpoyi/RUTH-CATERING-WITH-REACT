@@ -66,6 +66,7 @@ h1:after {
 }
 
 .img-box img{
+   
     width: 250px;
     height: 250px;
    
@@ -135,6 +136,7 @@ h1:after {
     .img-box img{
         width: 350px;
         height: 350px;
+        
        
     }
     

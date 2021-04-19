@@ -44,6 +44,14 @@
         s.src = 'https://call.chatra.io/chatra.js';
         if (d.head) d.head.appendChild(s);
     })(document, window, 'Chatra');
+
+
+      // prevent right click to protect images 
+        window.oncontextmenu = function () {
+            // console.log("Right Click Disabled");
+            return false;
+        }
+    
     </script>
     
   </head>
@@ -93,7 +101,9 @@
 
 
       }, 1000);
-          
+
+      
+            
     </script>
   
   </body>
