@@ -3,6 +3,7 @@ import                  "./Card.css"
 import ndaya from "./images/ndaya.jpg";
 import sharon from "./images/sharon.jpg"
 import mbuyi from "./images/mbuyi.jpg"
+import flora from "./images/Flora.jpg"
 
 function Card() {
     return ( 
@@ -43,7 +44,7 @@ function Card() {
 
                         <div className="col-md-3 profile text-center">
                             <div className="img-box">
-                                <img src={mbuyi} className="img-responsive" alt=""/>
+                                <img src={flora} className="img-responsive" alt=""/>
                                 <ul>
                                     <li><a href=""> <i className="fa fa-facebook"></i></a> </li>
                                     <li><a href=""> <i className="fa fa-twitter"></i></a> </li>

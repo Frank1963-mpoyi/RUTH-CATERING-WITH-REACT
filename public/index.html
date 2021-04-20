@@ -66,6 +66,7 @@
                 'Accept': 'application/json'
             }
         }).then(response => {
+            status.classList.add('success')
             status.innerHTML = "Thanks for your submission!";
             form.reset()
         }).catch(error => {
@@ -73,6 +74,7 @@
         });
         }
         form.addEventListener("submit", handleSubmit)
+        
     </script>
     
   </head>

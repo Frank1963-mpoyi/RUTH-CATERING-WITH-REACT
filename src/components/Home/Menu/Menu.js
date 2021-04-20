@@ -19,7 +19,7 @@ function Menu() {
                 <div className="single-menu">
                     <img src={fruit1} alt=""/>
                     <div className="menu-content">
-                        <h4>chicken fried salad <span>$45</span></h4>
+                        <h4>chicken fried salad <span>&nbsp;&nbsp;$45</span></h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ function Menu() {
                 <div className="single-menu">
                     <img src={fruit2}  alt=""/>
                     <div className="menu-content">
-                        <h4>chicken fried salad <span>$45</span></h4>
+                        <h4>chicken fried salad <span>&nbsp;&nbsp;$45</span></h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ function Menu() {
                 <div className="single-menu">
                     <img src={fruit3}  alt=""/>
                     <div className="menu-content">
-                        <h4>chicken fried salad <span>$45</span></h4>
+                        <h4>chicken fried salad <span>&nbsp;&nbsp;$45</span></h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -43,7 +43,7 @@ function Menu() {
                 <div className="single-menu">
                     <img src={fruit4}  alt=""/>
                     <div className="menu-content">
-                        <h4>chicken fried salad <span>$45</span></h4>
+                        <h4>chicken fried salad <span>&nbsp;&nbsp;$45</span></h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -51,7 +51,7 @@ function Menu() {
                 <div className="single-menu">
                     <img src={fruit5}  alt=""/>
                     <div className="menu-content">
-                        <h4>chicken fried salad <span>$45</span></h4>
+                        <h4>chicken fried salad <span>&nbsp;&nbsp;$45</span></h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ function Menu() {
                 <div className="single-menu">
                     <img src={fruit6}  alt=""/>
                     <div className="menu-content">
-                        <h4>chicken fried salad <span>$45</span></h4>
+                        <h4>chicken fried salad <span>&nbsp;&nbsp;$45</span></h4>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                 </div>
