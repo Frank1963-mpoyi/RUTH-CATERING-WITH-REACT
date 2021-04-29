@@ -165,6 +165,59 @@ h1:after {
     border-radius: 10px;
 }
 
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+@media(max-width: 767.98px){
+        
+    .img-box:hover:after{
+        opacity: 1;
+        border-radius: 10px;
+
+    }
+
+    .img-box:after {
+        content: '';
+        opacity: 0;
+        background-color: rgba(0,0,0,0.45);
+        position: absolute;
+        right: 14px;
+        left: 14px;
+        top: 0;
+        bottom: 0;
+    }
+
+}
+
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media(max-width: 576px){
+        
+    .img-box:hover:after{
+        opacity: 1;
+        border-radius: 10px;
+
+    }
+
+    .img-box:after {
+        content: '';
+        opacity: 0;
+        background-color: rgba(0,0,0,0.45);
+        position: absolute;
+        right: 15px;
+        left: 15px;
+        top: 0;
+        bottom: 0;
+    }
+
+}
+
+
+
+
 .img-box:hover ul {
     opacity: 1;
 }
